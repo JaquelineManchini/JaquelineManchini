@@ -1,0 +1,121 @@
+body{
+    color: black;
+    background-color: burlywood;                                    
+}
+.texto {
+    margin: 5px;
+    padding: 5px;
+    white-space: pre-line;
+  }
+  
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+
+}
+a{
+    color: black  
+
+}
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    border: 5px solid blueviolet;
+}
+.center{
+    text-align: center;
+}
+footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50% ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+footer p{
+    margin-top: 3px;
+}
+nav li :hover{
+    color: blueviolet;
+}
+footer a :hover{
+    color: blueviolet;
+}
+.container{
+    padding: 0px 50px;
+}
+nav a {
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+section img{
+    text-align:center;
+    display:flex;
+    width: 100px;
+    height: 100px;
+    border-radius:50%
+
+}
+li a {
+    text-align: center;
+    margin: 20px
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+/* CSS para centralizar o conteúdo dentro da seção */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 24px; 
+    text-align: center;
+}
+
+section li {
+    margin-top: 10px; 
+    text-align: center;
+}
